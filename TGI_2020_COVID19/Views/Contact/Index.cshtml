@@ -4,63 +4,98 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">Contact <small>We'd Love to Hear From You!</small></h1>
+            <h1 class="page-header">Notícias <small>Todos os direitos reservados</small></h1>
             <ol class="breadcrumb">
                 <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                <li class="active">Contact</li>
+                <li class="active">Notícias</li>
             </ol>
         </div>
-        <div class="col-lg-12">
-            <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
-            <iframe width="100%" scrolling="no" height="400px" frameborder="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed" marginwidth="0" marginheight="0"></iframe>
-        </div>
     </div><!-- /.row -->
+
     <div class="row">
         <div class="col-sm-8">
-            <h3>Let's Get In Touch!</h3>
-            <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-            <form action="contact-form-submission.php" method="POST" role="form">
-                <div class="row">
-                    <div class="form-group col-lg-4">
-                        <label for="input1">Name</label>
-                        <input type="text" id="input1" class="form-control" name="contact_name">
-                    </div>
-                    <div class="form-group col-lg-4">
-                        <label for="input2">Email Address</label>
-                        <input type="email" id="input2" class="form-control" name="contact_email">
-                    </div>
-                    <div class="form-group col-lg-4">
-                        <label for="input3">Phone Number</label>
-                        <input type="phone" id="input3" class="form-control" name="contact_phone">
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="form-group col-lg-12">
-                        <label for="input4">Message</label>
-                        <textarea id="input4" rows="6" class="form-control" name="contact_message"></textarea>
-                    </div>
-                    <div class="form-group col-lg-12">
-                        <input type="hidden" value="contact" name="save">
-                        <button class="btn btn-primary" type="submit">Submit</button>
+            <h3>Segue abaixo as principais notícias do momento:</h3>
+            <p>Aqui temos as principais compartilhadoras de informações sobre o coronavírus no Brasil, coletamos algumas informações da <a href="https://g1.globo.com" target="_blank">G1</a> e <a href="https://www.r7.com" target="_blank">R7</a></p>
+            <div class="section">
+                <h2><a href="https://g1.globo.com" target="_blank">Notícias na G1</a></h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h3>Sobre o último mês:</h3>
+                            <hr>
+                        </div>
+                        <div>
+                            <a href="https://g1.globo.com/bemestar/coronavirus/noticia/2020/05/27/casos-de-coronavirus-e-numero-de-mortes-no-brasil-em-27-de-maio.ghtml" target="_blank">
+                                <h3>Quantidade de mortes no país representado pelo gráfico:</h3>
+                                <p>Brasil se aproxima de 26 mil mortes por coronavírus[...]</p>
+                            </a>
+                            <a href="https://g1.globo.com/bemestar/coronavirus/noticia/2020/05/27/casos-de-coronavirus-e-numero-de-mortes-no-brasil-em-27-de-maio.ghtml" target="_blank">
+                                <img class="img-responsive img-home-portfolio" src="/tabela_corona1.jpg" width="400">
+                            </a>
+                        </div>
+                        <hr />
+                        <div>
+                            <a href="https://g1.globo.com/globonews/jornal-das-dez/video/brasil-e-8o-pais-com-mais-pessoas-recuperadas-da-covid-19-8511104.ghtml" target="_blank">
+                                <h3>Pessoas recuperadas do Corona:</h3>
+                                <p>Brasil é 8º país com mais pessoas recuperadas da Covid-19</p>
+                            </a>
+                            <a href="https://g1.globo.com/globonews/jornal-das-dez/video/brasil-e-8o-pais-com-mais-pessoas-recuperadas-da-covid-19-8511104.ghtml" target="_blank">
+                                <img class="img-responsive img-home-portfolio" src="/brasilg1.png" width="400">
+                            </a>
+                            <a href="https://g1.globo.com/busca/?q=pessoas+recuperadas&page=1" target="_blank">
+                                <h2>Saiba mais sobre cada estado na pesquisa do g1:</h2>
+                            </a>
+                            <a href="https://g1.globo.com/busca/?q=pessoas+recuperadas&page=1" target="_blank">
+                                <img class="img-responsive img-home-portfolio" src="/pesquisag1.png" width="400">
+                            </a>
+                            <hr />
+                            <a href="https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2020/05/28/numeros-de-furtos-e-roubos-caem-e-homicidios-aumentam-durante-quarentena-em-ribeirao-preto-sp.ghtml" target="_blank">
+                                <h3>Furtos com o coronavírus</h3>
+                                <p>Em Franca (SP), não houve mudança em relação ao número de homicídios, enquanto furtos e roubos reduziram, de acordo com a SSP. Especialista atribui queda à redução de pessoas nas ruas[...]</p>
+                            </a>
+                            <a href="https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2020/05/28/numeros-de-furtos-e-roubos-caem-e-homicidios-aumentam-durante-quarentena-em-ribeirao-preto-sp.ghtml" target="_blank">
+                                <img class="img-responsive img-home-portfolio" src="/ribeiraog1.png" width="400">
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </form>
+            </div><!-- /.row -->
+            <div class="section">
+                <h2><a href="https://www.r7.com" target="_blank">Notícias no R7</a></h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h3>Sobre o último mês:</h3>
+                            <hr>
+                        </div>
+                        <div>
+                            <a href="https://novacanaa.colabore.org/sosfamiliasdosertao/people/new" target="_blank">
+                                <h3>Um compartilhamento importante: famílias no sertão. Faça a sua doação para a campanha SOS Famílias do Sertão.</h3>
+                                <p>Essas famílias precisam de ajuda, doe uma pequena quantia para poder ajudar.</p>
+                            </a>
+                            <a href="https://novacanaa.colabore.org/sosfamiliasdosertao/people/new" target="_blank">
+                                <img class="img-responsive img-home-portfolio" src="/familiadosertao.jpg" width="400">
+                            </a>
+                            <hr />
+                            <a href="https://noticias.r7.com/sao-paulo/covas-sao-paulo-nao-pode-reabrir-para-depois-voltar-atras-28052020" target="_blank">
+                                <h3>São Paulo não pode reabrir para depois voltar atrás</h3>
+                                <p>O prefeito da cidade de São Paulo, Bruno Covas, alertou nesta quinta-feira (28) que a possível abertura de alguns setores da economia a partir de meados de junho não pode ser vista como o fim da circulação do vírus[...]</p>
+                            </a>
+                            <a href="https://noticias.r7.com/sao-paulo/covas-sao-paulo-nao-pode-reabrir-para-depois-voltar-atras-28052020" target="_blank">
+                                <img class="img-responsive img-home-portfolio" src="/brunocovas.jpeg" width="400">
+                            </a>
+                            <hr />
+                            <a href="https://noticias.r7.com/saude/mais-de-50-dos-pacientes-com-covid-19-no-brasil-ja-se-curaram-14042020" target="_blank">
+                                <h3>Mais de 50% dos pacientes com covid-19 no Brasil já se curaram</h3>
+                                <p>Cálculos do Ministério da Saúde, que consideram apenas casos confirmados, indicam que 14.026 pessoas se recuperaram da doença até esta terça[...]</p>
+                            </a>
+                            <a href="https://noticias.r7.com/saude/mais-de-50-dos-pacientes-com-covid-19-no-brasil-ja-se-curaram-14042020" target="_blank">
+                                <img class="img-responsive img-home-portfolio" src="/curar7.jpeg" width="400">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.row -->
         </div>
-        <div class="col-sm-4">
-            <h3>Modern Business</h3>
-            <h4>A Start Bootstrap Template</h4>
-            <p>
-                5555 44th Street N.<br>
-                Bootstrapville, CA 32323<br>
-            </p>
-            <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: (555) 984-3600</p>
-            <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a></p>
-            <p><i class="fa fa-clock-o"></i> <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
-            <ul class="list-unstyled list-inline list-social-icons">
-                <li class="tooltip-social facebook-link"><a title="Facebook" data-placement="top" data-toggle="tooltip" href="#facebook-page"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-                <li class="tooltip-social linkedin-link"><a title="LinkedIn" data-placement="top" data-toggle="tooltip" href="#linkedin-company-page"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-                <li class="tooltip-social twitter-link"><a title="Twitter" data-placement="top" data-toggle="tooltip" href="#twitter-profile"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-                <li class="tooltip-social google-plus-link"><a title="Google+" data-placement="top" data-toggle="tooltip" href="#google-plus-page"><i class="fa fa-google-plus-square fa-2x"></i></a></li>
-            </ul>
-        </div>
-    </div><!-- /.row -->
+    </div>
 </div>
